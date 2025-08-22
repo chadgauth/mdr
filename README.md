@@ -1,4 +1,4 @@
-# MDR (Mind Data Retrieval)
+# MDR (Macro Data Refinement)
 
 [![React Native](https://img.shields.io/badge/React%20Native-0.81.0-blue.svg)](https://reactnative.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8.3-blue.svg)](https://www.typescriptlang.org/)
