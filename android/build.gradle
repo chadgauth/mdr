@@ -1,0 +1,30 @@
+buildscript {
+    ext {
+        buildToolsVersion = "36.0.0"
+        minSdkVersion = 24
+        compileSdkVersion = 36
+        targetSdkVersion = 36
+        // Remove NDK version completely to avoid license issues
+        kotlinVersion = "2.1.20"
+        disableNdkBuild = true
+    }
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle")
+        classpath("com.facebook.react:react-native-gradle-plugin")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
+    }
+}
+
+// Configure React Native without NDK requirements
+rootProject.ext.react = [
+    enableNdkBuild: false,
+    enableSeparateBuildPerCPUArchitecture: false,
+    universalApk: false,
+    disableResourceCompression: true
+]
+
+apply plugin: "com.facebook.react.rootproject"

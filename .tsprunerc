@@ -1,0 +1,23 @@
+{
+  "ignore": [
+    "**/node_modules/**",
+    "**/android/**",
+    "**/ios/**",
+    "**/build/**",
+    "**/*.test.ts",
+    "**/*.test.tsx",
+    "**/*.spec.ts",
+    "**/*.spec.tsx",
+    "**/jest.config.js",
+    "**/metro.config.js",
+    "**/babel.config.js",
+    "**/react-native.config.js",
+    "index.js",
+    "App.tsx"
+  ],
+  "skip": [
+    "default export",
+    "export =",
+    "export default"
+  ]
+}

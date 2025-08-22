@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "🔥 Start Metro Server",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/@react-native/cli/build/bin.js",
+      "args": ["start", "--reset-cache"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "env": {
+        "EDGE_PATH": "/snap/bin/chromium"
+      }
+    }
+  ]
+}

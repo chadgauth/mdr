@@ -1,0 +1,21 @@
+{
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.suggest.autoImports": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "emmet.includeLanguages": {
+    "typescript": "typescriptreact",
+    "javascript": "javascriptreact"
+  },
+  "react-native-tools.showUserTips": false,
+  "react-native-tools.projectRoot": "./",
+  "files.associations": {
+    "*.tsx": "typescriptreact"
+  },
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#0a0f1a",
+    "statusBar.foreground": "#00ffcc"
+  }
+}
