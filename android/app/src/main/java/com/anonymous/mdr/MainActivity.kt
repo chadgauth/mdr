@@ -1,4 +1,4 @@
-package com.mdr
+package com.anonymous.mdr
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

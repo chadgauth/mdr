@@ -1,4 +1,7 @@
 {
   "name": "MDR",
-  "displayName": "MDR"
+  "displayName": "MDR",
+  "android": {
+    "package": "com.anonymous.mdr"
+  }
 }
